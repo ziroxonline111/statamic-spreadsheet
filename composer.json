@@ -1,0 +1,54 @@
+{
+    "name": "karelialabs/statamic-spreadsheet",
+    "description": "Edit Statamic entries in a spreadsheet: paste from Excel, fill down, find and replace, CSV in and out. Saves through your blueprints' own validation.",
+    "type": "statamic-addon",
+    "license": "proprietary",
+    "keywords": ["statamic", "statamic-addon", "spreadsheet", "bulk edit", "inline edit", "csv", "find and replace"],
+    "homepage": "https://ziroxonline111.github.io/karelia-labs/products/karelia-spreadsheet/",
+    "authors": [
+        {
+            "name": "Karelia Labs",
+            "homepage": "https://ziroxonline111.github.io/karelia-labs/"
+        }
+    ],
+    "support": {
+        "email": "support@karelialabs.atlassian.net",
+        "docs": "https://ziroxonline111.github.io/karelia-labs/statamic-spreadsheet/"
+    },
+    "autoload": {
+        "psr-4": {
+            "KareliaLabs\\Spreadsheet\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KareliaLabs\\Spreadsheet\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "statamic/cms": "^6.20"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.8 || ^11.0",
+        "phpunit/phpunit": "^11.0 || ^12.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Karelia Spreadsheet",
+            "description": "Edit entries in a spreadsheet: paste from Excel, fill down, find and replace, CSV in and out."
+        },
+        "laravel": {
+            "providers": [
+                "KareliaLabs\\Spreadsheet\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

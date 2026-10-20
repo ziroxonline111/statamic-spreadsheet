@@ -1,0 +1,113 @@
+{
+  "_SpreadsheetEditor-DILP8sdS.js": {
+    "file": "assets/SpreadsheetEditor-DILP8sdS.js",
+    "name": "SpreadsheetEditor",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/addon.js"
+    ],
+    "dynamicImports": [
+      "node_modules/@revolist/revogrid/dist/esm/revo-grid.entry.js",
+      "node_modules/@revolist/revogrid/dist/esm/revogr-filter-panel.entry.js",
+      "node_modules/@revolist/revogrid/dist/esm/revogr-attribution_7.entry.js",
+      "node_modules/@revolist/revogrid/dist/esm/revogr-clipboard_3.entry.js",
+      "node_modules/@revolist/revogrid/dist/esm/revogr-data_4.entry.js"
+    ]
+  },
+  "_edit.utils-3ZbhQCv_-CRymhIdF.js": {
+    "file": "assets/edit.utils-3ZbhQCv_-CRymhIdF.js",
+    "name": "edit.utils-3ZbhQCv_",
+    "imports": [
+      "_SpreadsheetEditor-DILP8sdS.js"
+    ]
+  },
+  "_events-BvSmBueA-k9NlCA2M.js": {
+    "file": "assets/events-BvSmBueA-k9NlCA2M.js",
+    "name": "events-BvSmBueA"
+  },
+  "_throttle-3rhqdcLy-CEgZ5aYt.js": {
+    "file": "assets/throttle-3rhqdcLy-CEgZ5aYt.js",
+    "name": "throttle-3rhqdcLy",
+    "imports": [
+      "_viewport.helpers-CoCAvmZs-BklLoqZc.js",
+      "_SpreadsheetEditor-DILP8sdS.js"
+    ]
+  },
+  "_viewport.helpers-CoCAvmZs-BklLoqZc.js": {
+    "file": "assets/viewport.helpers-CoCAvmZs-BklLoqZc.js",
+    "name": "viewport.helpers-CoCAvmZs"
+  },
+  "node_modules/@revolist/revogrid/dist/esm/revo-grid.entry.js": {
+    "file": "assets/revo-grid.entry-o41_wyqw.js",
+    "name": "revo-grid.entry",
+    "src": "node_modules/@revolist/revogrid/dist/esm/revo-grid.entry.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SpreadsheetEditor-DILP8sdS.js",
+      "_viewport.helpers-CoCAvmZs-BklLoqZc.js",
+      "_events-BvSmBueA-k9NlCA2M.js",
+      "resources/js/addon.js"
+    ]
+  },
+  "node_modules/@revolist/revogrid/dist/esm/revogr-attribution_7.entry.js": {
+    "file": "assets/revogr-attribution_7.entry-CXi6NhP2.js",
+    "name": "revogr-attribution_7.entry",
+    "src": "node_modules/@revolist/revogrid/dist/esm/revogr-attribution_7.entry.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SpreadsheetEditor-DILP8sdS.js",
+      "_events-BvSmBueA-k9NlCA2M.js",
+      "_edit.utils-3ZbhQCv_-CRymhIdF.js",
+      "_viewport.helpers-CoCAvmZs-BklLoqZc.js",
+      "_throttle-3rhqdcLy-CEgZ5aYt.js",
+      "resources/js/addon.js"
+    ]
+  },
+  "node_modules/@revolist/revogrid/dist/esm/revogr-clipboard_3.entry.js": {
+    "file": "assets/revogr-clipboard_3.entry-MRJlEJ_f.js",
+    "name": "revogr-clipboard_3.entry",
+    "src": "node_modules/@revolist/revogrid/dist/esm/revogr-clipboard_3.entry.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SpreadsheetEditor-DILP8sdS.js",
+      "_edit.utils-3ZbhQCv_-CRymhIdF.js",
+      "resources/js/addon.js"
+    ]
+  },
+  "node_modules/@revolist/revogrid/dist/esm/revogr-data_4.entry.js": {
+    "file": "assets/revogr-data_4.entry-DX1hR0yU.js",
+    "name": "revogr-data_4.entry",
+    "src": "node_modules/@revolist/revogrid/dist/esm/revogr-data_4.entry.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SpreadsheetEditor-DILP8sdS.js",
+      "_throttle-3rhqdcLy-CEgZ5aYt.js",
+      "_viewport.helpers-CoCAvmZs-BklLoqZc.js",
+      "resources/js/addon.js"
+    ]
+  },
+  "node_modules/@revolist/revogrid/dist/esm/revogr-filter-panel.entry.js": {
+    "file": "assets/revogr-filter-panel.entry-CQu5OCEz.js",
+    "name": "revogr-filter-panel.entry",
+    "src": "node_modules/@revolist/revogrid/dist/esm/revogr-filter-panel.entry.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SpreadsheetEditor-DILP8sdS.js",
+      "resources/js/addon.js"
+    ]
+  },
+  "resources/css/addon.css": {
+    "file": "assets/addon-W9pjIFVJ.css",
+    "src": "resources/css/addon.css",
+    "isEntry": true
+  },
+  "resources/js/addon.js": {
+    "file": "assets/addon-DEVrlDMa.js",
+    "name": "addon",
+    "src": "resources/js/addon.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "_SpreadsheetEditor-DILP8sdS.js"
+    ]
+  }
+}

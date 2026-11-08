@@ -74,7 +74,7 @@ php artisan vendor:publish --tag=statamic-spreadsheet-config
 
 ## Support
 
-Email **support@karelialabs.atlassian.net** with your Statamic version and the addon version. Questions and bug reports are welcome.
+Email **support@karelialabs.com** with your Statamic version and the addon version. Questions and bug reports are welcome.
 
 ## Licence
 
